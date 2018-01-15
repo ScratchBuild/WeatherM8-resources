@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hot_city">
+        <item>北京</item>
+        <item>アムステルダム</item>
+        <item>ワルシャワ</item>
+        <item>リトアニア</item>
+        <item>リガ</item>
+        <item>マドリード</item>
+        <item>Perm</item>
+        <item>ローマ</item>
+        <item>ドバイ</item>
+        <item>ミンスク</item>
+        <item>ブラゴダルニ</item>
+        <item>カラガンダ</item>
+        <item>オリョール</item>
+        <item>ベルリン</item>
+        <item>プラハ</item>
+        <item>モスクワ</item>
+        <item>サンクトペテルブルク</item>
+        <item>シカゴ</item>
+        <item>ニューヨーク</item>
+        <item>パリ</item>
+        <item>ロンドン</item>
+        <item>ロサンゼルス</item>
+        <item>カリーニングラード</item>
+    </string-array>
+    <string-array name="weather_type">
+        <item>晴れ</item>
+        <item>曇り</item>
+        <item>一面曇り</item>
+        <item>霧</item>
+        <item>豪雨</item>
+        <item>土砂降り</item>
+        <item>暴風雨</item>
+        <item>雷雨</item>
+        <item>にわか雨</item>
+        <item>大雨</item>
+        <item>並雨</item>
+        <item>小雨</item>
+        <item>雨混じりの雪</item>
+        <item>猛吹雪</item>
+        <item>雪</item>
+        <item>大雪</item>
+        <item>並雪</item>
+        <item>小雪</item>
+        <item>強い砂嵐</item>
+        <item>砂嵐</item>
+        <item>砂</item>
+        <item>強風</item>
+        <item>雹(ひょう)</item>
+        <item>ちり</item>
+        <item>煙霧</item>
+        <item>冷たい雨</item>
+        <item>No weather</item>
+    </string-array>
+    <string-array name="wind_direction">
+        <item>北</item>
+        <item>北東</item>
+        <item>東</item>
+        <item>南東</item>
+        <item>南</item>
+        <item>南西</item>
+        <item>西</item>
+        <item>北東</item>
+    </string-array>
+    <string-array name="weather_notif_type_entries">
+        <item>天気アイコン</item>
+        <item>気温</item>
+    </string-array>
+    <string-array name="weather_indexes_uv_level">
+        <item>Low</item> <!-- 0-2.9 -->
+        <item>Moderate</item> <!-- 3-5.9 -->
+        <item>High</item> <!-- 6-7.9 -->
+        <item>Very High</item> <!-- 8-10.9 -->
+        <item>Extreme</item> <!-- 11+ -->
+    </string-array>
+    <string-array name="update_check_interval_entries">
+        <item>15分</item>
+        <item>30分</item>
+        <item>1時間</item>
+        <item>2時間</item>
+        <item>3時間</item>
+        <item>4時間</item>
+        <item>5時間</item>
+        <item>6時間</item>
+        <item>12時間</item>
+        <item>24時間</item>
+    </string-array>
+    <string-array name="weather_icons_entries">
+        <item>MIUI 8</item>
+        <item>YunOS</item>
+        <item>シンプル</item>
+    </string-array>
+    <string-array name="widget_dateformat_values">
+        <item>d MMM</item>
+        <item>MMM d</item>
+        <item>d MMMM</item>
+        <item>MMMM d</item>
+        <item>EEEE, d MMM</item>
+        <item>EEEE, MMM d</item>
+        <item>EEEE, d MMMM</item>
+        <item>EEEE, MMMM d</item>
+        <item>E, d MMM</item>
+        <item>E, MMM d</item>
+        <item>E, d MMMM</item>
+        <item>E, MMMM d</item>
+        <item>d MMMM yyyy</item>
+        <item>d MMM yyyy</item>
+        <item>MMMM d, yyyy</item>
+        <item>MMM d, yyyy</item>
+        <item>dd/MM/yy</item>
+        <item>dd.MM.yy</item>
+        <item>dd/MM/yyyy</item>
+        <item>dd.MM.yyyy</item>
+        <item>MM/dd/yyyy</item>
+        <item>yyyy/MM/dd</item>
+        <item>E, d MMMM yyyy</item>
+        <item>E, d MMM yyyy</item>
+        <item>E, MMMM d, yyyy</item>
+        <item>E, MMM d, yyyy</item>
+        <item>E, dd/MM/yy</item>
+        <item>E, dd.MM.yy</item>
+        <item>E, dd/MM/yyyy</item>
+        <item>E, dd.MM.yyyy</item>
+        <item>E, MM/dd/yyyy</item>
+        <item>E, yyyy/MM/dd</item>
+    </string-array>
+    <string-array name="pressure_level_entries">
+        <item>Sea level</item>
+        <item>Location level</item>
+        <item>Phone pressure sensor</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>Good</item>
+        <item>Moderate</item>
+        <item>Unhealthy for sensitive groups</item>
+        <item>Unhealthy</item>
+        <item>Very unhealthy</item>
+        <item>Hazardous</item>
+    </string-array>
+</resources>

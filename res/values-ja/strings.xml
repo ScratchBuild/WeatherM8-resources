@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather M8</string>
+    <string name="app_version">Version: %s</string>
+    <string name="location_management">Locations</string>
+    <string name="gps_hint">GPS</string>
+    <string name="network_unavailable">ネットワークに接続できませんでした。</string>
+    <string name="act_find_city_hot_title">追加</string>
+    <string name="act_find_city_hint">Enter location</string>
+    <string name="act_set_city_find_side">Locating…</string>
+    <string name="act_set_city_find_side_error">"Can't locate device"</string>
+    <string name="button_add_city">都市を追加</string>
+    <string name="locate_fail_detail_err">"Can't locate device
+Tap the button below to add city manually or try to locate again"</string>
+    <string name="act_set_city_swipe_hint">左にスワイプして都市を削除</string>
+    <string name="button_allow">OK</string>
+    <string name="button_not_allow">キャンセル</string>
+    <string name="act_weather_find_city_net_no_good">ネットワークに接続できませんでした。</string>
+    <string name="act_weather_find_city_click_retry">再試行</string>
+    <string name="act_weather_find_city_searching">検索中…</string>
+    <string name="location_tag">Locate</string>
+    <string name="act_weather_find_city_no_result">No results</string>
+    <string name="act_weather_find_city_added">追加しました</string>
+    <string name="view_forecast_item_yesterday">昨日</string>
+    <string name="view_indexes_item_today">今日</string>
+    <string name="view_indexes_item_tommorrow">明日</string>
+    <string name="activity_main_update_time">Updated %1$s</string>
+    <string name="activity_main_expire_time">Expires %1$s</string>
+    <string name="activity_main_update_time_expire">Data expired</string>
+    <string name="activity_main_update_time_right_now">just now</string>
+    <string name="activity_main_refresh_fail">ネットワークに接続できません</string>
+    <string name="activity_find_city_dialog_cancel">キャンセル</string>
+    <string name="activity_find_city_dialog_set">設定</string>
+    <string name="activity_find_city_dialog_title">Location access</string>
+    <string name="activity_find_city_dialog_message">Let Weather view your location</string>
+    <string name="activity_main_time_format">E</string>
+    <string name="activity_detail_time_format">E</string>
+    <string name="hour_minute_time_format">HH:mm</string>
+    <string name="first_start_network_msg">"This app requires active Internet connection to get weather data.
+        Application uses permissions:
+        \u2022 Access device location to get your current coordinates.
+        \u2022 Access photos, media and files to save screenshots for \"Share\" feature."</string>
+    <string name="first_start_network_title">インターネット接続と位置情報アクセス</string>
+
+    <string name="get_accounts_msg">This app requires access to the device accounts list to check your purchases and turn off the ads.</string>
+    <string name="get_accounts_title">Accounts access</string>
+
+    <string name="international_detail_menu_title">詳細</string>
+    <string name="share_menu_title">共有</string>
+
+    <string name="common_auto">自動</string>
+    <string name="common_default">Default</string>
+    <string name="common_recommended">Recommended</string>
+
+    <string name="network_error">サーバーに接続できませんでした。\nネットワーク設定を確認してください。</string>
+    <string name="network_in_quiet_hours">You are in Quiet Hours now. Updates cancelled.</string>
+    <string name="network_in_roaming">You have settings to disable updates in roaming.</string>
+    <string name="network_wifi_only">Updates set to Wi-Fi only.</string>
+
+    <!-- Preferences -->
+    <string name="settings_menu_title">設定</string>
+    <string name="settings_autoupdate_weather_title">自動更新</string>
+    <string name="settings_autoupdate_weather_summary">天気予報を自動的に更新する</string>
+    <string name="settings_update_wifi_only_summary">Wi-Fi接続時のみ天気予報を自動的に更新する</string>
+    <string name="settings_update_wifi_only_title">Update only on Wi-Fi</string>
+    <string name="settings_update_interval_title">更新間隔</string>
+    <string name="settings_update_quiet_hours_end_time_title">終了時間</string>
+    <string name="settings_update_quiet_hours_start_time_title">開始時間</string>
+    <string name="settings_update_quiet_hours_title">Quiet hours</string>
+    <string name="settings_weather_transfer_title">Weather description transfer</string>
+    <string name="settings_weather_transfer_summary">Show weather description day to night transfer</string>
+    <string name="settings_weather_spider_title">Update source</string>
+    <string name="settings_weather_realtime_spider_title">Realtime data</string>
+    <string name="settings_weather_forecast_spider_title">Forecast data</string>
+    <string name="settings_weather_station_title">Meteo station</string>
+    <string name="settings_weather_data_order_title">Weather data order</string>
+    <string name="settings_aqi_onoff_title">Air Quality information</string>
+    <string name="settings_aqi_onoff_summary">Show air quality index information for your locations (if available)</string>
+    <string name="settings_aqi_max_distance_closest">Closest station</string>
+    <string name="settings_aqi_max_distance_title">AQI check radius</string>
+    <string name="settings_aqi_max_distance_summary">Get air quality data from the weather stations, located at a distance within %1$s</string>
+    <string name="settings_app_locale_title">言語</string>
+    <string name="settings_app_theme_title">テーマ</string>
+    <string name="settings_app_theme_light">Light</string>
+    <string name="settings_app_theme_dark">Dark</string>
+    <string name="settings_sound_volume">音量</string>
+    <string name="settings_weather_details_title">天気の詳細</string>
+    <string name="settings_weather_details_summary">メイン画面に表示する天気の詳細を選択</string>
+    <string name="settings_category_units">単位</string>
+    <string name="settings_pressure_unit">気圧</string>
+    <string name="settings_pressure_unit_atm">atm</string>
+    <string name="settings_pressure_unit_hpa">hPa</string>
+    <string name="settings_pressure_unit_mb">mb</string>
+    <string name="settings_pressure_unit_mm">mmHg</string>
+    <string name="settings_pressure_unit_in">inHg</string>
+    <string name="settings_wind_unit">風速</string>
+    <string name="settings_wind_unit_bft">bft</string>
+    <string name="settings_wind_unit_kmh">km/h</string>
+    <string name="settings_wind_unit_knot">knot</string>
+    <string name="settings_wind_unit_ms">m/s</string>
+    <string name="settings_wind_unit_mph">mph</string>
+    <string name="settings_temp_unit">気温</string>
+    <string name="settings_visibility_unit">視程</string>
+    <string name="settings_visibility_unit_kilometers">km</string>
+    <string name="settings_visibility_unit_meters">m</string>
+    <string name="settings_visibility_unit_miles">miles</string>
+
+    <string name="settings_realtime_feelslike_as_main_title">Feelslike as main temperature</string>
+    <string name="settings_realtime_feelslike_as_main_summary">Show realfeel temperature as a main weather temperature</string>
+
+    <string name="settings_show_plus_sign_temp_title">Show "+" sign</string>
+    <string name="settings_show_plus_sign_temp_summary">Show "+" sign for positive temperatures</string>
+
+    <string name="settings_pressure_level_title">Display pressure for</string>
+
+    <string name="settings_city_base">City Database</string>
+
+    <string name="settings_notifications_title">通知</string>
+    <string name="settings_notifications_summary">Weather notifications settings</string>
+    <string name="settings_notification_title">Show Notification</string>
+    <string name="settings_notification_summary">Show current weather conditions in the notification area</string>
+
+    <string name="settings_notification_priority_title">Minimum priority</string>
+    <string name="settings_notification_priority_summary">Minimum-priority notifications appears only in notification shade</string>
+
+    <string name="settings_notify_type_title">通知アイコン</string>
+    <string name="settings_notification_background_color_title">Notification background color</string>
+    <string name="settings_notification_statusbar_color_title">通知アイコンの色</string>
+    <string name="settings_notification_text_color_title">Notification text color</string>
+
+    <string name="weather_alert_notification_channel_name">Alerts</string>
+    <string name="weather_main_notification_channel_name">Weather</string>
+    <string name="weather_foreground_notification_channel_name">Weather services</string>
+
+    <string name="settings_alerts_title">Manage weather alerts</string>
+
+    <string name="settings_icons_title">天気アイコン</string>
+    <string name="settings_icons_builtin_title">内蔵の天気アイコン</string>
+    <string name="settings_icons_temperature_title">Temperature icons</string>
+    <string name="settings_icons_theme_details_title">テーマの詳細</string>
+
+    <string name="settings_widgets_title">ウィジェット</string>
+    <string name="settings_widgets_not_found">インストールされたウィジェットが見つかりません</string>
+
+    <string name="settings_ads_title">Advertisement and Donations</string>
+    <string name="settings_ads_donations_title">Buy me a beer</string>
+    <string name="settings_ads_explanation">"Why you see an advertising?
+Writing applications for Android is a hobby for me, which I do in my personal free time. So please treat with understanding to the appearance of a certain number of banners. Displaying ads in application stimulates the further development."</string>
+    <string name="settings_ads_menu_hide_title">Hide this menu item</string>
+    <string name="settings_ads_remove_title">Remove ads</string>
+    <string name="settings_ads_remove_summary">Remove ads for a week (once a month)</string>
+    <string name="settings_ads_yandex">Yandex Money</string>
+    <string name="settings_ads_webmoney">Webmoney</string>
+    <string name="settings_ads_donation_expl">Donation via Google Play by pressing these buttons below will NOT remove ads. To remove them you should use \"Remove ads\" button.</string>
+    <string name="settings_about">このアプリについて</string>
+    <string name="settings_translations">Translations</string>
+    <string name="settings_translations_summary">Credits to the application translators</string>
+    <string name="settings_thirdparty">Third-party libraries and resources</string>
+    <string name="settings_permissions">Permissions</string>
+    <string name="settings_permissions_privacy">Privacy Policy</string>
+    <string name="settings_help">ヘルプ</string>
+    <string name="settings_feedback">フィードバックを送信</string>
+    <string name="settings_dialog_enter_timezone">Enter Time Zone for selected city (%s), for example GMT+03:00:</string>
+
+    <string name="feedback_title">件名</string>
+    <string name="feedback_title_hint">問題を簡素に記述</string>
+    <string name="feedback_description">説明</string>
+    <string name="feedback_description_hint">問題や提案の説明を詳しく入力</string>
+    <string name="feedback_add_images">画像を追加</string>
+    <string name="feedback_select_upload_settings">アプリの設定をアップロード</string>
+    <string name="feedback_action_send">送信</string>
+    <string name="feedback_fill_required">必須フィールドは空白にすることはできません</string>
+    <string name="feedback_sending">フィードバックを送信中…</string>
+    <string name="feedback_sent">Thanks for your feedback!</string>
+    <string name="feedback_error">Error sending feedback</string>
+
+    <string name="share_btn_cancel">キャンセル</string>
+    <string name="share_btn_confirm">共有する</string>
+    <string name="share_subject">共有</string>
+    <string name="share_button">共有</string>
+    <string name="share_weather_save_pic_fail">スクリーンショットの取得に失敗しました</string>
+    <string name="share_weather_desc_split">,</string>
+    <string name="share_weather_desc">\#Weather M8# Today %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s, %2$s</string>
+    <string name="hourly_forcast_now">現在</string>
+    <string name="sunrise">日の出</string>
+    <string name="sunset">日の入</string>
+    <string name="daily_forcast_weather_transfer">%1$s. %2$s later.</string>
+    <string name="daily_forcast_temperature_transfer">%1$s° / %2$s°</string>
+    <string name="daily_forcast_drawer_on_top">Daily forecast</string>
+    <string name="daily_forcast_wind_connect">%2$s %1$s</string>
+
+    <!-- Weather details -->
+    <string name="more_details">さらに詳しく</string>
+    <string name="weather_details_title">天気の詳細</string>
+    <string name="weather_details_wind_title">Wind</string>
+    <string name="weather_details_real_feel_title">Feels like</string>
+    <string name="weather_details_temperature_title">気温</string>
+    <string name="weather_details_uv_index_title">UV指数</string>
+    <string name="weather_details_pressure_title">気圧</string>
+    <string name="weather_details_humidity_title">湿度</string>
+    <string name="weather_details_visibility_title">視程</string>
+    <string name="weather_details_precipitation_prob_title">Precipitation</string>
+    <string name="weather_details_daylight_hours_title">Daylight hours</string>
+    <string name="weather_details_timezone_title">タイムゾーン</string>
+    <string name="weather_details_elevation_title">Elevation</string>
+
+    <string name="weather_details_wind_connect">%1$s %2$s</string>
+    <string name="weather_details_pressure">%1$s hPa</string>
+    <string name="weather_details_pressure_atm">%1$s atm</string>
+    <string name="weather_details_pressure_mb">%1$s mb</string>
+    <string name="weather_details_pressure_mm">%1$s mmHg</string>
+    <string name="weather_details_pressure_in">%1$s inHg</string>
+    <string name="weather_details_humidity">%1$s%%</string>
+    <string name="weather_details_visibility">%1$s km</string>
+    <string name="weather_details_visibility_meters">%1$s m</string>
+    <string name="weather_details_visibility_miles">%1$s miles</string>
+
+    <string name="weather_details_update_date_string">Observation time: %s</string>
+
+    <string name="weather_details_daylight_diff_longer">%1$s longer</string>
+    <string name="weather_details_daylight_diff_shorter">%1$s shorter</string>
+
+    <string name="weather_details_precipitation_amount_mm">%1$s mm</string>
+
+    <string name="time_units_hour">時</string>
+    <string name="time_units_minute">分</string>
+    <string name="time_units_second">秒</string>
+
+    <string name="hourly_forecast_detail_date">d MMM, E</string>
+    <string name="daily_forecast_detail_date">d MMM</string>
+    <string name="weather_update_date">d MMMM</string>
+    <string name="weather_short_month_update_date">d MMM</string>
+    <string name="widget_dateformat_default_value">d MMMM yyyy</string>
+
+    <!-- Weather alerts -->
+    <string name="activity_main_alert">Alerts: %1$d</string>
+    <string name="activity_main_alert_precip">%1$s expected. The amount of precipitation per day is %2$s.</string>
+    <string name="activity_main_alert_wind">Wind expected, the maximum wind speed up to %1$s.</string>
+    <string name="activity_main_alert_wind_gusts">Wind gusts expected with the maximum wind speed of up to %1$s.</string>
+    <string name="activity_main_alert_tstorm">Thunderstorms expected with a probability of %1$s.</string>
+    <string name="activity_main_alert_day_night">By day %1$s is expected, at night %2$s.</string>
+    <string name="activity_main_alert_type_rain">雨</string>
+    <string name="activity_main_alert_type_snow">雪</string>
+    <string name="activity_main_alert_type_ice">氷</string>
+    <string name="activity_main_alert_type_wind">風</string>
+    <string name="activity_main_alert_type_wind_gusts">突風</string>
+    <string name="activity_main_alert_type_tstorm">雷雨</string>
+
+    <string name="daily_forcast_no_wind">無風</string>
+    <string name="daily_forcast_whirl_wind">旋風</string>
+    <string name="delete">削除</string>
+
+    <string name="hourly_forecast_title">Hourly Forecast</string>
+
+    <!-- Widgets -->
+    <string name="widget_update_date_string">Updated %s</string>
+    <string name="widget_update_updating_string">更新中…</string>
+    <!-- Widget config -->
+    <string name="widget_config_title">Widget config</string>
+    <string name="widget_config_custom_clock_font_onoff_title">Custom clock font</string>
+    <string name="widget_config_custom_clock_font_onoff_summary">Turn it off if widget clock is not updating</string>
+    <string name="widget_config_clock_font_title">Clock font</string>
+    <string name="widget_config_clock_color_title">Clock color</string>
+    <string name="widget_config_clock_font_size_title">Clock font size</string>
+    <string name="widget_config_date_font_size_title">Date font size</string>
+    <string name="widget_config_dateformat_title">Date format</string>
+    <string name="widget_config_realtime_font_title">Realtime data font</string>
+    <string name="widget_config_realtime_font_size_title">Realtime data text size</string>
+    <string name="widget_config_realtime_icon_size_title">Current weather icon size</string>
+    <string name="widget_config_forecast_icon_size_title">Forecast weather icons size</string>
+    <string name="widget_config_font_title">Text font</string>
+    <string name="widget_config_font_size_title">Text size</string>
+    <string name="widget_config_text_color_title">Text color</string>
+    <string name="widget_config_show_alarm_title">Show next alarm</string>
+    <string name="widget_config_show_date_title">Show date</string>
+    <string name="widget_config_show_update_date_title">Show forecast update date</string>
+    <string name="widget_config_use_background_title">Show widget background</string>
+    <string name="widget_config_background_color_title">Background color</string>
+    <string name="widget_config_background_type_title">Background type</string>
+    <string name="widget_config_background_type_solid">Solid</string>
+    <string name="widget_config_background_type_border">Border</string>
+
+    <string name="widget_config_show_text_shadow_title">Show text shadow</string>
+    <string name="widget_config_show_realtime_icon_title">Show current weather icon</string>
+    <string name="widget_config_show_cityname_title">Show city name</string>
+    <string name="widget_config_show_local_time_title">Show local time</string>
+    <string name="widget_config_show_leading_zero_title">Show leading zero</string>
+
+    <string name="widget_config_click_settings">Click widget areas settings</string>
+    <string name="widget_config_click_apps">アプリの選択</string>
+    <string name="widget_config_click_clock">Clock</string>
+    <string name="widget_config_click_date">Date</string>
+    <string name="widget_config_click_weather_icon">天気アイコン</string>
+    <string name="widget_config_click_temperature">気温</string>
+
+    <string name="widget_config_backup_done">Widget settings backed up!</string>
+    <string name="widget_config_restore_done">Widget settings restored from backup!</string>
+    <string name="widget_config_no_backups_found">No widget settings backups found</string>
+
+    <string name="widgets_notification_info">Updating widgets…</string>
+
+    <!-- Moon Phases -->
+    <string name="menu_moon_phases">Moon Phases</string>
+    <string name="moon_age">月齢: %1$s日%2$s時間%3$s分</string>
+    <string name="moon_newmoon">新月</string>
+    <string name="moon_waxingcrescent">Waxing crescent</string>
+    <string name="moon_firstquarter">First quarter</string>
+    <string name="moon_waxinggibbous">Waxing gibbous</string>
+    <string name="moon_full">満月</string>
+    <string name="moon_waninggibbous">Waning gibbous</string>
+    <string name="moon_lastquarter">Last quarter</string>
+    <string name="moon_waningcrescent">Waning crescent</string>
+    <string name="moon_illuminated">Illuminated: %s%%</string>
+    <string name="moon_since">Date: %1$s %2$s</string>
+    <string name="moon_distanse">Moon distance: %s km</string>
+    <string name="moon_angle">Moon angle: %s</string>
+    <string name="moon_rise">Rise: %s</string>
+    <string name="moon_set">Set: %s</string>
+    <string name="moon_zodiac">Zodiac: %s</string>
+
+    <string name="zodiac_aries">牡羊座</string>
+    <string name="zodiac_taurus">牡牛座</string>
+    <string name="zodiac_gemini">双子座</string>
+    <string name="zodiac_cancer">蟹座</string>
+    <string name="zodiac_leo">獅子座</string>
+    <string name="zodiac_virgo">乙女座</string>
+    <string name="zodiac_libra">天秤座</string>
+    <string name="zodiac_scorpio">蠍座</string>
+    <string name="zodiac_sagittarius">射手座</string>
+    <string name="zodiac_capricorn">山羊座</string>
+    <string name="zodiac_aquarius">水瓶座</string>
+    <string name="zodiac_pisces">魚座</string>
+
+    <!-- Color picker -->
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="color_picker_use_default_color">Use default color</string>
+
+    <string name="date_time_am">am</string>
+    <string name="date_time_pm">pm</string>
+
+    <!-- AQI -->
+    <string name="aqi_main_title">Air Quality</string>
+    <string name="aqi_main_publish_time">Updated at %1$s</string>
+
+    <string name="aqi_ring_top_pollution">Major pollutants</string>
+    <string name="aqi_ring_desc">Air Quality Index</string>
+
+    <string name="aqi_detail_5_days">Daily forecast</string>
+    <string name="aqi_detail_24_hours">Hourly forecast</string>
+
+    <string name="aqi_detail_unit">単位: µg/m³ (CO: mg/m³)</string>
+
+    <!-- Radar -->
+    <string name="radar_title">レーダー</string>
+    <string name="radar_tab_cloud">雲</string>
+    <string name="radar_tab_rain">降水量</string>
+    <string name="radar_date_format">MM/dd HH:mm</string>
+
+    <string name="loading_data">データの読み込み中…</string>
+</resources>
