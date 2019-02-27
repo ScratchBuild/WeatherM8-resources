@@ -21,13 +21,14 @@ Tap the button below to add city manually or try to locate again"</string>
     <string name="location_tag">Locate</string>
     <string name="act_weather_find_city_no_result">No results</string>
     <string name="act_weather_find_city_added">追加しました</string>
+    <string name="city_exceeded_warning">最大10個の都市を追加できます</string>
     <string name="view_forecast_item_yesterday">昨日</string>
     <string name="view_indexes_item_today">今日</string>
     <string name="view_indexes_item_tommorrow">明日</string>
     <string name="activity_main_update_time">Updated %1$s</string>
     <string name="activity_main_expire_time">Expires %1$s</string>
     <string name="activity_main_update_time_expire">Data expired</string>
-    <string name="activity_main_update_time_right_now">just now</string>
+    <string name="activity_main_update_time_right_now">たった今</string>
     <string name="activity_main_refresh_fail">ネットワークに接続できません</string>
     <string name="activity_find_city_dialog_cancel">キャンセル</string>
     <string name="activity_find_city_dialog_set">設定</string>
@@ -59,10 +60,20 @@ Tap the button below to add city manually or try to locate again"</string>
 
     <!-- Preferences -->
     <string name="settings_menu_title">設定</string>
+    <string name="settings_geolocation_title">位置情報</string>
+    <string name="settings_autolocate_title">自動検索</string>
+    <string name="settings_autolocate_summary">端末の位置情報を自動で検索する</string>
+    <string name="settings_geolocation_names_source_title">位置情報の取得元</string>
+    <string name="geolocation_names_source_default">デフォルト</string>
+    <string name="geolocation_names_source_google">Google</string>
+    <string name="settings_autolocate_detailed_title">詳細な位置情報</string>
+    <string name="settings_autolocate_detailed_summary">通り、地域、国など、現在地に関する詳細な位置情報を取得および表示します。</string>
     <string name="settings_autoupdate_weather_title">自動更新</string>
     <string name="settings_autoupdate_weather_summary">天気予報を自動的に更新する</string>
-    <string name="settings_update_wifi_only_summary">Wi-Fi接続時のみ天気予報を自動的に更新する</string>
-    <string name="settings_update_wifi_only_title">Update only on Wi-Fi</string>
+    <string name="settings_update_on_app_start_title">アプリの起動時に更新</string>
+    <string name="settings_update_on_app_start_summary">アプリの起動時に天気予報を更新する</string>
+    <string name="settings_update_wifi_only_summary">Wi-Fi接続時のみ天気予報を更新する</string>
+    <string name="settings_update_wifi_only_title">Wi-Fi接続時のみ更新</string>
     <string name="settings_update_interval_title">更新間隔</string>
     <string name="settings_update_quiet_hours_end_time_title">終了時間</string>
     <string name="settings_update_quiet_hours_start_time_title">開始時間</string>
@@ -111,7 +122,7 @@ Tap the button below to add city manually or try to locate again"</string>
     <string name="settings_show_plus_sign_temp_title">Show "+" sign</string>
     <string name="settings_show_plus_sign_temp_summary">Show "+" sign for positive temperatures</string>
 
-    <string name="settings_pressure_level_title">Display pressure for</string>
+    <string name="settings_pressure_level_title">気圧の表示単位</string>
 
     <string name="settings_city_base">City Database</string>
 
@@ -136,14 +147,14 @@ Tap the button below to add city manually or try to locate again"</string>
 
     <string name="settings_icons_title">天気アイコン</string>
     <string name="settings_icons_builtin_title">内蔵の天気アイコン</string>
-    <string name="settings_icons_temperature_title">Temperature icons</string>
+    <string name="settings_icons_temperature_title">気温アイコン</string>
     <string name="settings_icons_theme_details_title">テーマの詳細</string>
 
     <string name="settings_widgets_title">ウィジェット</string>
     <string name="settings_widgets_not_found">インストールされたウィジェットが見つかりません</string>
 
-    <string name="settings_ads_title">Advertisement and Donations</string>
-    <string name="settings_ads_donations_title">Buy me a beer</string>
+    <string name="settings_ads_title">広告と寄付</string>
+    <string name="settings_ads_donations_title">Buy me a coffee</string>
     <string name="settings_ads_explanation">"Why you see an advertising?
 Writing applications for Android is a hobby for me, which I do in my personal free time. So please treat with understanding to the appearance of a certain number of banners. Displaying ads in application stimulates the further development."</string>
     <string name="settings_ads_menu_hide_title">Hide this menu item</string>
@@ -157,10 +168,10 @@ Writing applications for Android is a hobby for me, which I do in my personal fr
     <string name="settings_translations_summary">Credits to the application translators</string>
     <string name="settings_thirdparty">Third-party libraries and resources</string>
     <string name="settings_permissions">Permissions</string>
-    <string name="settings_permissions_privacy">Privacy Policy</string>
+    <string name="settings_permissions_privacy">プライバシーポリシー</string>
     <string name="settings_help">ヘルプ</string>
     <string name="settings_feedback">フィードバックを送信</string>
-    <string name="settings_dialog_enter_timezone">Enter Time Zone for selected city (%s), for example GMT+03:00:</string>
+    <string name="settings_dialog_enter_timezone">選択した都市のタイムゾーンを入力してください (%s)、例: GMT+09:00:</string>
 
     <string name="feedback_title">件名</string>
     <string name="feedback_title_hint">問題を簡素に記述</string>
@@ -185,7 +196,7 @@ Writing applications for Android is a hobby for me, which I do in my personal fr
     <string name="hourly_forcast_now">現在</string>
     <string name="sunrise">日の出</string>
     <string name="sunset">日の入</string>
-    <string name="daily_forcast_weather_transfer">%1$s. %2$s later.</string>
+    <string name="daily_forcast_weather_transfer">%1$s のち %2$s</string>
     <string name="daily_forcast_temperature_transfer">%1$s° / %2$s°</string>
     <string name="daily_forcast_drawer_on_top">Daily forecast</string>
     <string name="daily_forcast_wind_connect">%2$s %1$s</string>
@@ -194,16 +205,16 @@ Writing applications for Android is a hobby for me, which I do in my personal fr
     <string name="more_details">さらに詳しく</string>
     <string name="weather_details_title">天気の詳細</string>
     <string name="weather_details_wind_title">Wind</string>
-    <string name="weather_details_real_feel_title">Feels like</string>
+    <string name="weather_details_real_feel_title">体感気温</string>
     <string name="weather_details_temperature_title">気温</string>
     <string name="weather_details_uv_index_title">UV指数</string>
     <string name="weather_details_pressure_title">気圧</string>
     <string name="weather_details_humidity_title">湿度</string>
     <string name="weather_details_visibility_title">視程</string>
-    <string name="weather_details_precipitation_prob_title">Precipitation</string>
-    <string name="weather_details_daylight_hours_title">Daylight hours</string>
+    <string name="weather_details_precipitation_prob_title">雨量</string>
+    <string name="weather_details_daylight_hours_title">日照時間</string>
     <string name="weather_details_timezone_title">タイムゾーン</string>
-    <string name="weather_details_elevation_title">Elevation</string>
+    <string name="weather_details_elevation_title">標高</string>
 
     <string name="weather_details_wind_connect">%1$s %2$s</string>
     <string name="weather_details_pressure">%1$s hPa</string>
@@ -216,7 +227,7 @@ Writing applications for Android is a hobby for me, which I do in my personal fr
     <string name="weather_details_visibility_meters">%1$s m</string>
     <string name="weather_details_visibility_miles">%1$s miles</string>
 
-    <string name="weather_details_update_date_string">Observation time: %s</string>
+    <string name="weather_details_update_date_string">観測時間: %s</string>
 
     <string name="weather_details_daylight_diff_longer">%1$s longer</string>
     <string name="weather_details_daylight_diff_shorter">%1$s shorter</string>
@@ -227,11 +238,11 @@ Writing applications for Android is a hobby for me, which I do in my personal fr
     <string name="time_units_minute">分</string>
     <string name="time_units_second">秒</string>
 
-    <string name="hourly_forecast_detail_date">d MMM, E</string>
-    <string name="daily_forecast_detail_date">d MMM</string>
-    <string name="weather_update_date">d MMMM</string>
-    <string name="weather_short_month_update_date">d MMM</string>
-    <string name="widget_dateformat_default_value">d MMMM yyyy</string>
+    <string name="hourly_forecast_detail_date">MM/dd E</string>
+    <string name="daily_forecast_detail_date">MM/dd</string>
+    <string name="weather_update_date">MM/dd</string>
+    <string name="weather_short_month_update_date">MM/dd</string>
+    <string name="widget_dateformat_default_value">yyyy/MM/dd</string>
 
     <!-- Weather alerts -->
     <string name="activity_main_alert">Alerts: %1$d</string>
@@ -254,10 +265,10 @@ Writing applications for Android is a hobby for me, which I do in my personal fr
     <string name="hourly_forecast_title">Hourly Forecast</string>
 
     <!-- Widgets -->
-    <string name="widget_update_date_string">Updated %s</string>
+    <string name="widget_update_date_string">%sに更新</string>
     <string name="widget_update_updating_string">更新中…</string>
     <!-- Widget config -->
-    <string name="widget_config_title">Widget config</string>
+    <string name="widget_config_title">ウィジェット設定</string>
     <string name="widget_config_custom_clock_font_onoff_title">Custom clock font</string>
     <string name="widget_config_custom_clock_font_onoff_summary">Turn it off if widget clock is not updating</string>
     <string name="widget_config_clock_font_title">Clock font</string>
@@ -282,21 +293,22 @@ Writing applications for Android is a hobby for me, which I do in my personal fr
     <string name="widget_config_background_type_border">Border</string>
 
     <string name="widget_config_show_text_shadow_title">Show text shadow</string>
-    <string name="widget_config_show_realtime_icon_title">Show current weather icon</string>
-    <string name="widget_config_show_cityname_title">Show city name</string>
-    <string name="widget_config_show_local_time_title">Show local time</string>
+    <string name="widget_config_show_realtime_icon_title">現在の天気アイコンを表示</string>
+    <string name="widget_config_show_cityname_title">都市名を表示</string>
+    <string name="widget_config_show_local_time_title">現地時間を表示</string>
     <string name="widget_config_show_leading_zero_title">Show leading zero</string>
+    <string name="widget_config_show_ampm_title">Show AM/PM (12h format)</string>
 
     <string name="widget_config_click_settings">Click widget areas settings</string>
     <string name="widget_config_click_apps">アプリの選択</string>
-    <string name="widget_config_click_clock">Clock</string>
-    <string name="widget_config_click_date">Date</string>
+    <string name="widget_config_click_clock">時計</string>
+    <string name="widget_config_click_date">日付</string>
     <string name="widget_config_click_weather_icon">天気アイコン</string>
     <string name="widget_config_click_temperature">気温</string>
 
-    <string name="widget_config_backup_done">Widget settings backed up!</string>
-    <string name="widget_config_restore_done">Widget settings restored from backup!</string>
-    <string name="widget_config_no_backups_found">No widget settings backups found</string>
+    <string name="widget_config_backup_done">ウィジェット設定をバックアップしました</string>
+    <string name="widget_config_restore_done">ウィジェット設定をバックアップから復元しました</string>
+    <string name="widget_config_no_backups_found">ウィジェット設定のバックアップが見つかりません</string>
 
     <string name="widgets_notification_info">Updating widgets…</string>
 
@@ -304,13 +316,13 @@ Writing applications for Android is a hobby for me, which I do in my personal fr
     <string name="menu_moon_phases">Moon Phases</string>
     <string name="moon_age">月齢: %1$s日%2$s時間%3$s分</string>
     <string name="moon_newmoon">新月</string>
-    <string name="moon_waxingcrescent">Waxing crescent</string>
-    <string name="moon_firstquarter">First quarter</string>
-    <string name="moon_waxinggibbous">Waxing gibbous</string>
+    <string name="moon_waxingcrescent">三日月</string>
+    <string name="moon_firstquarter">上弦の月</string>
+    <string name="moon_waxinggibbous">十三夜</string>
     <string name="moon_full">満月</string>
-    <string name="moon_waninggibbous">Waning gibbous</string>
-    <string name="moon_lastquarter">Last quarter</string>
-    <string name="moon_waningcrescent">Waning crescent</string>
+    <string name="moon_waninggibbous">十八夜</string>
+    <string name="moon_lastquarter">下弦の月</string>
+    <string name="moon_waningcrescent">二十六夜</string>
     <string name="moon_illuminated">Illuminated: %s%%</string>
     <string name="moon_since">Date: %1$s %2$s</string>
     <string name="moon_distanse">Moon distance: %s km</string>
@@ -337,8 +349,8 @@ Writing applications for Android is a hobby for me, which I do in my personal fr
     <string name="dialog_color_picker">Color Picker</string>
     <string name="color_picker_use_default_color">Use default color</string>
 
-    <string name="date_time_am">am</string>
-    <string name="date_time_pm">pm</string>
+    <string name="date_time_am">午前</string>
+    <string name="date_time_pm">午後</string>
 
     <!-- AQI -->
     <string name="aqi_main_title">Air Quality</string>
